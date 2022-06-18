@@ -14,9 +14,10 @@ a {
     color:white;
     text-decoration: none;
 }
-.nav-web a:hover{
+a:hover{
     color: #ce7d35;
     transition: all .3s;
+    border-bottom: 2px solid rgb(255, 255, 255);
 }
 h1 {
     color: aqua;
@@ -70,12 +71,4 @@ ul {
 .sub-nav-menu li a {
     display: block;
     padding: 5px;
-}
-.nav-web ul li a:hover {
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
-.link-extenser:hover{
-    text-decoration: none;
-    color: #ce7d35;
-    transition: all .3s;
 }
