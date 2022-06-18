@@ -19,7 +19,7 @@ a:hover{
     transition: all .3s;
     border-bottom: 2px solid rgb(255, 255, 255);
 }
-h1 {
+.titulo {
     color: aqua;
 }
 ul {
@@ -47,7 +47,7 @@ ul {
     width: 50px;
 }
 /*nav-izq*/
-.nav-web ul {
+.nav-web > ul {
     display: flex;
 }
 .nav-web ul li {
@@ -57,19 +57,14 @@ ul {
     flex: 1;
     margin-left: 20px;
 }
-.sub-nav-menu {
+.sub-nav-menu{
     flex-direction: column;
     position: absolute;
-    background: #333;
-}
-.sub-nav-menu li{
     display: none;
+    background: #333;
+    padding: 0.5rem 0.5rem;
 }
-.sub-nav-menu:hover{
+.apartado:hover+.sub-nav-menu,.sub-nav-menu:hover{
     display:block;
 }
-.sub-nav-menu li a {
-    display: block;
-    padding: 5px;
-}
-/*desplegable*/
+
