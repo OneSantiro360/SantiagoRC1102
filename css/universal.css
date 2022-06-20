@@ -67,4 +67,7 @@ ul {
 .apartado:hover+.sub-nav-menu,.sub-nav-menu:hover{
     display:block;
 }
+.menu-img{
+    width: 20px;
+}
 
