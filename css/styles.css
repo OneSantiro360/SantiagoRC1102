@@ -32,17 +32,19 @@ a:hover{
     display: flex;
     justify-content: center;
 }
-/*Navegación*/
+/*Menu*/
 .nav-web {
-    font-size: 17px;
-    position:relative;
     display: flex;
     justify-content: space-between;
+    font-size: 17px;
+    position:relative;
     align-items: center;
     height: 60px;
     padding: 20px 0;
 }
+/*Logo*/
 .nav-img {
+    display: flex;
     width: 50px;
 }
 /*nav-izq*/
@@ -52,7 +54,11 @@ a:hover{
 .nav-web ul li {
     padding: 10px;
 }
-.nav-web ul.nav-menu {
+.nav-menu{
+    flex: 1;
+    margin-left: 20px;
+}
+.nav-web ul.menu {
     flex: 1;
     margin-left: 20px;
 }
@@ -68,4 +74,9 @@ a:hover{
 }
 .menu-img{
     width: 20px;
+    border-radius: 50%;
+}
+.open-menu,
+.close-menu{
+    display: none;
 }

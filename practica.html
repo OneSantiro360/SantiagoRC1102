@@ -13,32 +13,39 @@
             .menu-img{
                 width: 20px;
             }
+            .open-menu,
+            .close-menu{
+            display: none;
+            }
         </style>
         <!--FONT AWESONE-->
         <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
         <!--CUSTOM STYLES-->
         <link rel="stylesheet" href="css/styles.css">
         <link rel="stylesheet" href="css/practica.css">
+        <script defer src="js/main.js"></script>
     </head>
     <body class="pagina">
         <header id="Encabezado">
             <h1><div align="center"class="titulo">Capacitación</div> </h1>
         </header>
         <nav class="nav-web">
-            <input type="checkbox"id="check">
-            <label for="check"class="checkbtn">
-                <i class="fa-solid fa-bars"></i>
-            </label>
-            <img src="img/logo OneSantiro350.png"alt="Logo web"class="nav-img">
+            <img src="img/logo OneSantiro350.png"alt="Logo web"class="nav-img"width="50">
+            <button class="open-menu"aria-label="Abrir menu">
+                <img src="icons/hamburger-icon.svg" alt="Abrir Menú">
+            </button>
             <ul class="nav-menu">
-                <li><a href="http://www.santiago1102.ml">Principal</a></li>
+                <button class="close-menu"aria-label="Cerrar Menú">
+                    <img src="icons/close-icon.svg" alt="Cerrar Menú">
+                </button>
+                <li><a href="index.html">Principal</a></li>
                 <li>
                     <a href="#"class="apartado">Cursos de programación <i class="fas fa-angle-double-right"></i></a>
                     <ul class="sub-nav-menu">
                         <li><a href="https://youtube.com/playlist?list=PLROIqh_5RZeB92ME1GFyeqDVOa-gL0Ybd"target="blank"><img src="img/html_icon.png" alt="Logo menu"class="menu-img">Curso HTML</a></li>
                         <li><a href="https://youtube.com/playlist?list=PLROIqh_5RZeDbvISffzihyxzqJBt_z3-Z"target="blank"><img src="img/css_icon.png" alt="Logo menu"class="menu-img">Curso CSS</a></li>
                         <li><a href="https://youtube.com/playlist?list=PLROIqh_5RZeBAnmi0rqLkyZIAVmT5lZxG"target="blank"><img src="img/js_icon.png" alt="Logo menu"class="menu-img">Curso JS</a></li>
-                </ul>
+                    </ul>
                 </li>
                 <li>
                     <a href="#"class="apartado">Contactenos <i class="fas fa-angle-double-right"></i></a>
@@ -58,7 +65,7 @@
             <article>
                 <h1 id="Titular">Video en la red por YouTube</h1>
                 <p>en esta parte del video</p>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/RYRwOdS825o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/RYRwOdS825o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen class="YouTube"></iframe>
                 <!-- <embed src="pdf/practica.pdf" type="application/pdf"width="400"height="640"> -->
             </article>
         </main>
