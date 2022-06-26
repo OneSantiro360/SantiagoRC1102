@@ -1,3 +1,33 @@
 #Titular{
     padding-left: 10px;
 }
+.checkbtn{
+    font-size: 30px;
+    float: right;
+    margin-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}/*
+@media only screen and {max-width: 952px}{
+    .menu-img{
+        padding-left: 20px;
+    }
+    nav ul li s{
+        font-size: 16px;
+    }
+}
+@media only screen and {max-width: 858px}{
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+    }
+}*/

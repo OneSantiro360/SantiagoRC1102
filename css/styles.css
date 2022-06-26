@@ -2,6 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    list-style: none;
+    text-decoration: none;
 }
 
 body {
@@ -21,9 +23,6 @@ a:hover{
 }
 .titulo {
     color: aqua;
-}
-ul {
-    list-style: none;
 }
 .pagina {
     width: 90%;
@@ -70,4 +69,3 @@ ul {
 .menu-img{
     width: 20px;
 }
-
