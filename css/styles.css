@@ -69,7 +69,9 @@ a:hover{
     background: #333;
     padding: 0.5rem 0.5rem;
 }
-.apartado:hover+.sub-nav-menu,.sub-nav-menu:hover{
+.apartado:hover+
+.sub-nav-menu,
+.sub-nav-menu:hover{
     display:block;
 }
 .menu-img{
@@ -124,6 +126,14 @@ a:hover{
     }
     .YouTube{
         /* display: none; */
+        width: auto;
+        height: auto;
+    }
+    .img-head{
+        width: 50%;
+        height: auto;
+    }
+    .video{
         width: auto;
         height: auto;
     }
