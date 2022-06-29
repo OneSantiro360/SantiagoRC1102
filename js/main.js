@@ -1,9 +1,7 @@
-const menu = document.querySelector(".nav-menu")
-const OpenMenu = document.querySelector(".open-menu")
-const CloseMenu = document.querySelector(".close-menu")
-
-function toggleMenu(){
-    menu.classList.toggle("menu-opened");
-}
-OpenMenu.addEventListener("click", toggleMenu);
-CloseMenu.addEventListener("click", toggleMenu);
+document.querySelector(".menu-btn").addEventListener("click", () => {
+    document.querySelector(".nav-menu").classList.toggle("show");
+});
+ScrollReveal().reveal('.showcase');
+ScrollReveal().reveal('.news-cards', { delay: 500 });
+ScrollReveal().reveal('.cards-banner-one', { delay: 500 });
+ScrollReveal().reveal('.cards-banner-two', { delay: 500 });
