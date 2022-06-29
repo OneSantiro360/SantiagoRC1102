@@ -1,0 +1,57 @@
+
+/*RESPONSAVE*/
+
+@media (max-width: 750px){
+    .nav-menu{
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    background-color: #334460;
+    overflow-y: auto;
+
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+    }
+    .nav-menu li{
+    padding: 0;
+    }
+    .nav-menu a{
+    line-height: 60px;
+    }
+    .open-menu,
+    .close-menu {
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    }
+    .close-menu{
+    align-self: flex-end;
+    padding: 200px 15px;
+    }
+    .menu-opened {
+        opacity: 1;
+        pointer-events: all;
+    }
+    .open-menu:focus:not(:focus-visible),
+    .close-menu:focus:not(:focus-visible) {
+    outline: none;
+    }
+    .YouTube{
+        width: auto;
+        height: auto;
+    }
+    .img-head{
+        width: 45%;
+        height: auto;
+    }
+    .video{
+        width: auto;
+        height: auto;
+    }
+}
