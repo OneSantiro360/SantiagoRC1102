@@ -24,6 +24,7 @@ a:hover{
 }
 .titulo {
     color: aqua;
+    float: right;
 }
 .pagina {
     width: 90%;
@@ -74,4 +75,29 @@ a:hover{
 }
 .menu-img{
     width: 20px;
+}
+
+/*RESPONSIVE*/
+.menu-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 15px;
+    right: 30px;
+    z-index: 2;
+    display: none;
+}
+@media (max-width: 850px){
+    .menu-btn{
+        display: block;
+    }
+    .menu-btn:hover{
+        opacity: .5;
+    }
+    .nav-menu{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        
+    }
 }
